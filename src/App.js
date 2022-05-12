@@ -52,7 +52,7 @@ const App = () => {
                 <div className="footer__container">
                     <div className="footer__body">
                         <div className="footer__text">
-                            © Jeka S 2022. All rights reserved.
+                            © Jeka S. 2022. All rights reserved.
                         </div>
                     </div>
                 </div>
