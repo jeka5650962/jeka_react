@@ -15,7 +15,7 @@ ul li {list-style: none;}
 img {vertical-align: top;}
 h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 /* ----------------------------------------------------------------------------------------------------------- Шрифты */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 /* ------------------------------------------------------------------------------------------------------------- body */
 body {
     font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -24,7 +24,12 @@ body {
     background-color: #0d1117;
 }
 /* ---------------------------------------------------------------------------------------------------------- wrapper */
-.wrapper {}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+}
 /* ------------------------------------------------------------------------------------------------------ __container */
 [class*="__container"] {
     max-width: 1100px;
@@ -35,7 +40,8 @@ body {
 .header {
     padding: 20px 0;
 }
-.header__container {
+.header__container {}
+.header__body {
     display: flex;
     align-items: center;
 }
@@ -54,8 +60,11 @@ body {
     margin: 0 0 0 20px;
 }
 /* ------------------------------------------------------------------------------------------------------------- main */
-.main {}
-.main__container {
+.main {
+    padding: 20px 0;
+}
+.main__container {}
+.main__body {
     display: flex;
 }
 /* ----------------------------------------------------------------------------------------------------------- navbar */
@@ -85,4 +94,20 @@ body {
 }
 .content__body {
     padding: 30px 20px;
+}
+/* ----------------------------------------------------------------------------------------------------------- footer */
+.footer {
+    padding: 20px 0;
+}
+.footer__container {}
+.footer__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.footer__text {
+    font-size: 14px;
+    font-weight: 300;
+    color: #d9d9d9;
 }
