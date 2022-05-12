@@ -25,16 +25,19 @@ body {
 }
 /* ---------------------------------------------------------------------------------------------------------- wrapper */
 .wrapper {}
-/* -------------------------------------------------------------------------------------------------------- container */
-.container {
+/* ------------------------------------------------------------------------------------------------------ __container */
+[class*="__container"] {
     max-width: 1100px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 /* ----------------------------------------------------------------------------------------------------------- header */
 .header {
+    padding: 20px 0;
+}
+.header__container {
     display: flex;
     align-items: center;
-    padding: 20px 0;
 }
 .header__logo {
     flex: 0 0 100px;
@@ -45,29 +48,27 @@ body {
     max-width: 100%;
     display: block;
 }
-.header__title {
+.header__name {
     font-size: 22px;
     font-weight: 700;
-    color: #fff;
-    padding: 0 0 0 20px;
+    margin: 0 0 0 20px;
 }
-.header__menu {}
 /* ------------------------------------------------------------------------------------------------------------- main */
-.main {
+.main {}
+.main__container {
     display: flex;
 }
 /* ----------------------------------------------------------------------------------------------------------- navbar */
 .navbar {
     border-radius: 15px;
+    flex: 0 0 200px;
     background-color: #161b22;
-    flex: 0 0 300px;
-    margin: 0 10px 0 0;
 }
 .navbar__list {
     padding: 30px 20px;
 }
 .navbar__item {
-    margin: 0 0 20px 0;
+    margin: 0 0 15px 0;
 }
 .navbar__link {
     color: #fff;
@@ -78,8 +79,9 @@ body {
 /* ---------------------------------------------------------------------------------------------------------- content */
 .content {
     border-radius: 15px;
-    background-color: #161b22;
     flex: 1 1 auto;
+    margin: 0 0 0 15px;
+    background-color: #161b22;
 }
 .content__body {
     padding: 30px 20px;
