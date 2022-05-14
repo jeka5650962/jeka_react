@@ -1,0 +1,10 @@
+/* ---------------------------------------------------------------------------------------------------------- content */
+.content {
+    border-radius: 15px;
+    flex: 1 1 auto;
+    margin: 0 0 0 15px;
+    background-color: #161b22;
+}
+.content__body {
+    padding: 30px 20px;
+}

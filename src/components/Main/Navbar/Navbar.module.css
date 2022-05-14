@@ -1,0 +1,25 @@
+/* ----------------------------------------------------------------------------------------------------------- navbar */
+.navbar {
+    flex: 0 0 200px;
+    border-radius: 15px;
+    background-color: #161b22;
+}
+.navbar__list {
+    padding: 30px 20px;
+}
+.navbar__item {
+    margin: 0 0 15px 0;
+}
+.navbar__item:last-child {
+    margin: 0;
+}
+.navbar__link {
+    color: #fff;
+}
+.navbar__link.active {
+    color: #b05f32;
+    font-weight: 700;
+}
+.navbar__link:hover {
+    color: #599650;
+}
