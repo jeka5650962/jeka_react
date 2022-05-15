@@ -7,9 +7,6 @@ const Content = () => {
             <div className={style.content__body}>
                 <div className={style.profile}>
                     <div className={style.profile__image}>
-{/*                        <img
-                            src="https://www.rentallscript.com/blog/wp-content/uploads/2021/06/React.js-and-its-benefits.png"
-                            alt="Картинка"/>*/}
                     </div>
                     <div className={style.profile_info}>
                         <div className={style.profile__avatar}>
