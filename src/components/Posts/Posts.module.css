@@ -1,0 +1,15 @@
+/* ------------------------------------------------------------------------------------------------------------ posts */
+.posts {
+    padding: 10px 0;
+}
+.posts__container {}
+.posts__body {
+    display: flex;
+}
+.posts__tab {
+    flex: 0 0 200px;
+}
+.posts__publish {
+    flex: 1 1 auto;
+    margin: 0 0 0 15px;
+}
