@@ -16,7 +16,17 @@ const App = () => {
                         <div className="addPost__tab"></div>
                         <div className="addPost__publish">
                             <div className="typePost">
-                                Опубликовать
+                                <div className="typePost__body">
+                                    <div className="typePost__title">
+                                        New post
+                                    </div>
+                                    <div className="typePost__area">
+                                        <textarea name="text"></textarea>
+                                    </div>
+                                    <a className="typePost__button">
+                                        Post
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
