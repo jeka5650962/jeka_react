@@ -10,6 +10,18 @@ const App = () => {
         <div className="wrapper">
             <Header/>
             <Main/>
+            <section className="addPost">
+                <div className="addPost__container">
+                    <div className="addPost__body">
+                        <div className="addPost__tab"></div>
+                        <div className="addPost__publish">
+                            <div className="typePost">
+                                Опубликовать
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <Posts/>
             <Footer/>
         </div>

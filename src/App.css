@@ -37,3 +37,25 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+/* ---------------------------------------------------------------------------------------------------------- addPost */
+.addPost {
+    padding: 10px 0;
+}
+.addPost__container {}
+.addPost__body {
+    display: flex;
+}
+.addPost__tab {
+    flex: 0 0 200px;
+}
+.addPost__publish {
+    flex: 1 1 auto;
+    margin: 0 0 0 15px;
+}
+/* ------------------------------------------------------------------------------------- typePost */
+.typePost {
+    /*border: 1px solid #3c424b;*/
+    border-radius: 15px;
+    margin: 0 15px;
+    padding: 20px 30px;
+}
