@@ -16,6 +16,7 @@
 }
 .navbar__link {
     color: #fff;
+    transition: color 0.3s ease 0s;
 }
 .navbar__link.active {
     color: #599650;

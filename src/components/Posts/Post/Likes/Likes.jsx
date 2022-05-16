@@ -4,7 +4,7 @@ import style from "./Likes.module.css";
 const Likes = () => {
     return (
         <div className={style.profileMessage__likes}>
-            <span>15</span>
+            <span>24</span>
         </div>
     );
 };
